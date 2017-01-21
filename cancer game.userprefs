@@ -1,6 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Furniture Pack 1 Free/Scripts/MouseOrbitZoom.js">
+    <Files>
+      <File FileName="Assets/Furniture Pack 1 Free/Scripts/MouseOrbitZoom.js" Line="9" Column="12" />
+      <File FileName="Assets/Scripts/Movement.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
