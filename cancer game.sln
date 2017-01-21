@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B9F68787-6E18-2825-F781-9C7D22D67035}") = "cancer game", "Assembly-CSharp.csproj", "{20E163E4-0DFE-7EE0-1CC8-E0644929E9EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20E163E4-0DFE-7EE0-1CC8-E0644929E9EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E163E4-0DFE-7EE0-1CC8-E0644929E9EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E163E4-0DFE-7EE0-1CC8-E0644929E9EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E163E4-0DFE-7EE0-1CC8-E0644929E9EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
