@@ -24,11 +24,15 @@ public class Player : MonoBehaviour {
 
 	void Update ()
 	{
-		float moveHorizontal = Input.GetAxis ("Horizontal")  * Time.deltaTime * speed;
-		float moveVertical = Input.GetAxis ("Vertical") * Time.deltaTime * speed;
-
-		transform.Translate (0, 0, moveVertical);
-		transform.Translate (moveHorizontal, 0, 0 );
-
+		if (Input.GetAxis ("Vertical") < 0) {
+			float moveX = Mathf.Cos (mouseLook.transform.eulerAngles.y * -1 * Mathf.PI / 180) * speed * -1 ;
+			float moveY = Mathf.Sin (mouseLook.transform.eulerAngles.y * -1 * Mathf.PI / 180) * speed * -1 ; 
+			transform.Translate (moveY, 0, moveX);
+		} else if (Input.GetAxis ("Vertical") > 0 ){
+			float moveX = Mathf.Cos (mouseLook.transform.eulerAngles.y * -1 * Mathf.PI / 180) * speed; 
+			float moveY = Mathf.Sin (mouseLook.transform.eulerAngles.y * Mathf.PI / 180) * speed; 
+			transform.Translate (moveY, 0, moveX); 
+		}
+			
 	}
 }
