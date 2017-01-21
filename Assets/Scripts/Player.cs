@@ -8,6 +8,8 @@ public class Player : MonoBehaviour {
 	public float speed;
 	public int hp; 
 	public Text hpText; 
+	public SmoothMouseLook mouseLook;
+
 
 	private Rigidbody rb;
 
@@ -27,5 +29,6 @@ public class Player : MonoBehaviour {
 
 		transform.Translate (0, 0, moveVertical);
 		transform.Translate (moveHorizontal, 0, 0 );
+
 	}
 }
