@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; 
 
-public class Movement : MonoBehaviour {
+public class Player : MonoBehaviour {
 
 	public float speed;
+	public int hp; 
+	public Text hpText; 
 
 	private Rigidbody rb;
 
@@ -12,6 +15,9 @@ public class Movement : MonoBehaviour {
 	{
 		rb = GetComponent<Rigidbody>();
 		rb.constraints = RigidbodyConstraints.FreezeRotation;
+		hp = 100;
+		hpText.text = "Health: " + hp.ToString(); 
+
 	}
 
 	void Update ()
