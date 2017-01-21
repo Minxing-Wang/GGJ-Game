@@ -24,13 +24,21 @@ public class Player : MonoBehaviour {
 
 	void Update ()
 	{
-		if (Input.GetAxis ("Vertical") < 0) {
-			float moveX = Mathf.Cos (mouseLook.transform.eulerAngles.y * Mathf.PI / 180) * speed * -1 ;
-			float moveY = Mathf.Sin (mouseLook.transform.eulerAngles.y * Mathf.PI / 180) * speed * -1 ; 
+		if (Input.GetAxis ("Vertical") < 0) { // moving backwards ( w button ) 
+			float moveX = Mathf.Cos (mouseLook.transform.eulerAngles.y * Mathf.PI / 180) * speed * -1;
+			float moveY = Mathf.Sin (mouseLook.transform.eulerAngles.y * Mathf.PI / 180) * speed * -1; 
 			transform.Translate (moveY, 0, moveX);
-		} else if (Input.GetAxis ("Vertical") > 0 ){
+		} else if (Input.GetAxis ("Vertical") > 0) { // moving forward ( w button ) 
 			float moveX = Mathf.Cos (mouseLook.transform.eulerAngles.y * Mathf.PI / 180 * -1) * speed; 
-			float moveY = Mathf.Sin (mouseLook.transform.eulerAngles.y * Mathf.PI / 180 ) * speed; 
+			float moveY = Mathf.Sin (mouseLook.transform.eulerAngles.y * Mathf.PI / 180) * speed; 
+			transform.Translate (moveY, 0, moveX); 
+		} else if (Input.GetAxis ("Horizontal") < 0) { // moving left
+			float moveX = Mathf.Cos (mouseLook.transform.eulerAngles.y * Mathf.PI / 180 - (Mathf.PI / 2)) * speed; 
+			float moveY = Mathf.Sin (mouseLook.transform.eulerAngles.y * Mathf.PI / 180 - (Mathf.PI / 2)) * speed; 
+			transform.Translate (moveY, 0, moveX); 
+		} else if (Input.GetAxis ("Horizontal") > 0) { // moving right
+			float moveX = Mathf.Cos (mouseLook.transform.eulerAngles.y * Mathf.PI / 180 + (Mathf.PI / 2)) * speed; 
+			float moveY = Mathf.Sin (mouseLook.transform.eulerAngles.y * Mathf.PI / 180 + (Mathf.PI / 2)) * speed; 
 			transform.Translate (moveY, 0, moveX); 
 		}
 			
