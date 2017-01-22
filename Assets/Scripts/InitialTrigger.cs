@@ -13,7 +13,7 @@ public class InitialTrigger : MonoBehaviour {
 		if (c.gameObject.tag == "Player") {
 			Debug.Log("Player is here");
 			hasCollided = true;
-			labelText = "Heat this up in the microwave please";
+			labelText = "Heat this up in the microwave by pressing E";
 		}
 	}
 
