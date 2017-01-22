@@ -6,18 +6,21 @@ public class Microwave : MonoBehaviour {
 
 	bool hasCollided = false;
 	string labelText = "";
+	int fontSize = 20;
 
-	void onGUI(){
-		if (hasCollided == true) {
-			GUI.Box (new Rect (140, Screen.height - 50, Screen.width - 300, 120), (labelText));
+
+	void OnTriggerEnter(Collider c){
+		if (c.gameObject.tag == "Player") {
+			Debug.Log("Player is here");
+			hasCollided = true;
+			labelText = "Hit E to use microwave!";
 		}
 	}
 
-	void OnTriggerEnter(Collider c){
-		Debug.Log ("Player has entered the trigger");
-		if (c.gameObject.tag == "FPSController" || c.gameObject.tag == "FirstPersonCharacter") {
-			hasCollided = true;
-			labelText = "Hit E to use microwave!";
+	void OnGUI(){
+		GUI.skin.label.fontSize = GUI.skin.box.fontSize = GUI.skin.button.fontSize = fontSize;
+		if (hasCollided == true) {
+			GUI.Box(new Rect(140,Screen.height-50,Screen.width-300,120), labelText);
 		}
 	}
 
@@ -25,14 +28,4 @@ public class Microwave : MonoBehaviour {
 		Debug.Log ("Player has exit the trigger");
 		hasCollided = false;
 	}
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 }
