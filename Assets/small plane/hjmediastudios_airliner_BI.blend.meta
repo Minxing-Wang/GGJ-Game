@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: aec619e73b3224a6ab3357517a9daf30
+timeCreated: 1485035947
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Aileron_L
+    100002: Aileron_L_0
+    100004: Aileron_R
+    100006: Aileron_R_0
+    100008: Armature
+    100010: Elevator_L
+    100012: Elevator_L_0
+    100014: Elevator_R
+    100016: Elevator_R_0
+    100018: Empty
+    100020: Flap_L
+    100022: Flap_L_0
+    100024: Flap_R
+    100026: Flap_R_0
+    100028: Gear_Front
+    100030: Gear_L
+    100032: Gear_R
+    100034: GearFlap_L
+    100036: GearFlap_L_0
+    100038: GearFlap_R
+    100040: GearFlap_R_0
+    100042: //RootNode
+    100044: Plane
+    100046: Plane_0
+    100048: Rudder
+    100050: Rudder_0
+    100052: S-Arrow
+    100054: S-Arrow_001
+    100056: Strut_Front
+    100058: Strut_L
+    100060: Strut_R
+    100062: Turbine_L
+    100064: Turbine_L_0
+    100066: Turbine_R
+    100068: Turbine_R_0
+    100070: Wheel_L
+    100072: Wheel_L_0
+    100074: Wheel_R
+    100076: Wheel_R_0
+    100078: Wheels_Front
+    100080: Wheels_Front_0
+    400000: Aileron_L
+    400002: Aileron_L_0
+    400004: Aileron_R
+    400006: Aileron_R_0
+    400008: Armature
+    400010: Elevator_L
+    400012: Elevator_L_0
+    400014: Elevator_R
+    400016: Elevator_R_0
+    400018: Empty
+    400020: Flap_L
+    400022: Flap_L_0
+    400024: Flap_R
+    400026: Flap_R_0
+    400028: Gear_Front
+    400030: Gear_L
+    400032: Gear_R
+    400034: GearFlap_L
+    400036: GearFlap_L_0
+    400038: GearFlap_R
+    400040: GearFlap_R_0
+    400042: //RootNode
+    400044: Plane
+    400046: Plane_0
+    400048: Rudder
+    400050: Rudder_0
+    400052: S-Arrow
+    400054: S-Arrow_001
+    400056: Strut_Front
+    400058: Strut_L
+    400060: Strut_R
+    400062: Turbine_L
+    400064: Turbine_L_0
+    400066: Turbine_R
+    400068: Turbine_R_0
+    400070: Wheel_L
+    400072: Wheel_L_0
+    400074: Wheel_R
+    400076: Wheel_R_0
+    400078: Wheels_Front
+    400080: Wheels_Front_0
+    2300000: S-Arrow
+    2300002: S-Arrow_001
+    3300000: S-Arrow
+    3300002: S-Arrow_001
+    4300000: S-Arrow
+    4300002: Aileron_L
+    4300004: Flap_L
+    4300006: Flap_R
+    4300008: Elevator_L
+    4300010: Wheels_Front
+    4300012: Wheel_L
+    4300014: Wheel_R
+    4300016: Gear_L
+    4300018: Gear_R
+    4300020: GearFlap_L
+    4300022: GearFlap_R
+    4300024: Gear_Front
+    4300026: Elevator_R
+    4300028: Rudder
+    4300030: Aileron_R
+    4300032: Turbine_L
+    4300034: Turbine_R
+    4300036: Plane
+    4300038: S-Arrow_001
+    7400000: Default Take
+    7400002: Basics
+    9500000: //RootNode
+    13700000: Aileron_L
+    13700002: Aileron_R
+    13700004: Elevator_L
+    13700006: Elevator_R
+    13700008: Flap_L
+    13700010: Flap_R
+    13700012: Gear_Front
+    13700014: Gear_L
+    13700016: Gear_R
+    13700018: GearFlap_L
+    13700020: GearFlap_R
+    13700022: Plane
+    13700024: Rudder
+    13700026: Turbine_L
+    13700028: Turbine_R
+    13700030: Wheel_L
+    13700032: Wheel_R
+    13700034: Wheels_Front
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
