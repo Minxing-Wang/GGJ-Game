@@ -1,3 +1,3 @@
 # GGJ-Game
-
-A game about the events that were triggered from using a simple microwave. 2017 Global Game Jam Vancouver.
+Dank Microwave Simulator
+A game that we felt was too dangerous to released to our fellow participants in the 2017 Vancouver Game Jam.
